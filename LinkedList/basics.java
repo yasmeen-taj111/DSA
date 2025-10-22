@@ -25,10 +25,19 @@ public class basics {
     return head;
   }
 
+  private static void printLinkedList(Node head) {
+    Node temp = head;
+    while (temp != null) {
+      System.out.println(temp.data);
+      temp = temp.next;
+    }
+
+  }
+
   public static void main(String[] args) {
     int[] arr = { 1, 2, 3, 4, 5, 6 };
     Node head = array2LL(arr);
-    System.out.println(head.data);
+    printLinkedList(head);
   }
 
 }
