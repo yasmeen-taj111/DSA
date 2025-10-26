@@ -17,6 +17,7 @@ public class stacksUsingQueue {
   static void pop() {
     if (q.isEmpty()) {
       System.out.println("stack is empty");
+      return;
 
     }
     System.out.println(q.peek() + " is popped from stack");
