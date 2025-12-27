@@ -1,6 +1,7 @@
 package Trees;
 
 import java.util.*;
+// Q :-> Given a Tree of “N” nodes and N-1 edges ; rooted at node “1” ; print “N” integers ; where the ith integer prints the number of children of the ith node. Once this is done ; print all the leaves of the particular tree. 
 
 public class bfs {
   public static void main(String[] args) {
