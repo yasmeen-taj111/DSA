@@ -44,6 +44,8 @@ public class queueUsingLL {
     }
     Node temp = start;
     start = start.next;
+    if (start == null)
+      end = null;
     System.out.println(temp.data + " is popped from queue");
     c--;
 

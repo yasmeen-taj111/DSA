@@ -25,17 +25,23 @@ public class queueUsingArray {
   }
 
   static void pop() {
-    if (currsize == 0)
+    if (currsize == 0) {
       System.out.println("queue is empty");
-    System.err.println(q[start] + " is popped from queue");
+      return;
+    }
+
+    System.out.println(q[start] + " is popped from queue");
     start = (start + 1) % q.length;
     currsize--;
 
   }
 
   static int top() {
-    if (currsize == 0)
+    if (currsize == 0) {
       System.out.println("queue is empty");
+      return -1;
+    }
+
     return q[start];
   }
 

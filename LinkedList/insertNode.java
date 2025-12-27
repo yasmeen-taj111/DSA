@@ -72,8 +72,7 @@ public class insertNode {
     head.next = new Node(22);
     head.next.next = new Node(33);
     head.next.next.next = new Node(44);
-    Node inserthead = insertHead(head, 01);
-    System.out.println(inserthead.data);
+
   }
 
 }

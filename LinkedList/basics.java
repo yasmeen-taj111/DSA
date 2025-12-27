@@ -25,7 +25,7 @@ public class basics {
     return head;
   }
 
-  private static void printLinkedList(Node head) {
+  public static void printLinkedList(Node head) {
     Node temp = head;
     while (temp != null) {
       System.out.println(temp.data);
